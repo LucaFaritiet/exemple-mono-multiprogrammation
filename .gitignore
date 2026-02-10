@@ -1,4 +1,4 @@
-# Build results
+# Build output directories
 [Bb]in/
 [Oo]bj/
 
@@ -11,7 +11,7 @@
 *.userosscache
 *.sln.docstates
 
-# Build results
+# Build configuration directories
 [Dd]ebug/
 [Rr]elease/
 x64/
