@@ -32,12 +32,12 @@ namespace MonoVSMultiProg.MonoNMultiModels
 
             DoIOBoundWorkSync(2000);
 
-            DoCpuBoundWork(1_000_000);
+            DoCpuBoundWork(10_000_000);
 
             sw.Stop();
             Console.WriteLine($"\nLasted ≈ {sw.ElapsedMilliseconds} ms");
             Console.WriteLine("Press any key to return to main menu.");
-            Console.ReadKey();
+Console.ReadKey();
             Console.Clear();
         }
 
